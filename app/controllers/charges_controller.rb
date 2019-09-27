@@ -1,4 +1,11 @@
 class ChargesController < ApplicationController
+  def index
+  end
+
+  def create
+    binding.pry
+  end
+
   def edit
   end
 
