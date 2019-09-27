@@ -1,0 +1,5 @@
+<%= form_tag charge_path, method: :patch do %>
+  <%= hidden_field_tag 'user_email', params[:user_email] %>
+  <%= text_field_tag 'amount' %>
+  <%= submit_tag 'Pay' %>
+<% end %>
